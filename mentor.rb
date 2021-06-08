@@ -9,6 +9,7 @@ class Mentor
   def job
     puts "#{self.name}です。私は現役のITプロフェッショナルです。"
   end
+end
 
 class RailsMentor < Mentor
   # インスタンス変数
@@ -24,4 +25,3 @@ akaide = RailsMentor.new("赤出")
 
 kirameki.job
 akaide.job
-end
